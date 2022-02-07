@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "push": "mpm build && copy .\\dist\\index.html .\\dist\\200.html && surge --project ./dist/ --domain yocare.surge.sh"
+    "push": "npm build && copy .\\dist\\index.html .\\dist\\200.html && surge --project ./dist/ --domain yocare.surge.sh"
   },
   "dependencies": {
     "@mdi/font": "^6.5.95",
